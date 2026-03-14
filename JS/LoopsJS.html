@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //loops: used to repeatedly run a block of code untill a sepecific  condition is met.
+
+        //for loop: Used when you know the number of iteration in advance
+        let studentList=["vinay","abhi","Megha","Vivek","Deepak"];
+        for (let i=0;i<studentList.length;i++){
+            console.log(studentList[i]);
+        }
+        //while loop.......
+        let x=0;
+        while(x<studentList.length){
+            console.log(studentList[x]);
+            x++;
+        }
+        //for... of: Iterates over the value of iterable object (like Arrays,strings,Maps, and Sets).
+        for (let y of studentList){
+            console.log(y);
+        }
+
+    </script>
+</body>
+</html>
