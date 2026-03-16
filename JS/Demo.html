@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    <H1>Java Script</H1>
+    <script>
+        //var declaration
+        //no space between words, do not start with numerics and do not use reserve keywords
+        var myName="ABES"; //global ,attach with window object
+        document.write(myName);
+        console.log(myName);
+
+        //JS execution (Global and local (block) scope)
+        function hello(){
+            var Mynum=4645646456; //local or block level
+            console.log(Mynum);
+        }
+        hello();
+        //from ES6..let and const
+        //while those declared with let and const do not , though they remian globally accessible within the script.
+        let msg="Welcome";
+        console.log(msg);
+
+        const msg2="Thanks";
+        console.log(msg2);
+    </script>
+    
+</body>
+</html>
